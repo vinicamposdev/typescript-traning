@@ -1,7 +1,19 @@
+interface IPessoaInstance {
+    nome: string
+    dataNasc: Date
+    sexo: string
+}
+
 export class Pessoa {
     nome: string
     dataNasc: Date
     sexo: string
+
+    constructor (data: IPessoaInstance) {
+        this.nome = data.nome
+        this.dataNasc = data.dataNasc
+        this.sexo = data.sexo
+    }
 }
 
 class Aluno extends Pessoa {

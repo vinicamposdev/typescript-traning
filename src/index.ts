@@ -1,3 +1,9 @@
 import {Pessoa} from './Pessoa'
+import pessoasMock from './mocks/PessoasMock'
 
-console.log('server started')
+
+function main() {
+    console.log(new Pessoa(pessoasMock[0]))
+}
+
+main()
