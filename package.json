@@ -1,0 +1,14 @@
+{
+  "name": "typescript-exercice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Vinicius Campos",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node-dev --inspect --transpile-only  --ignore-watch node_modules src/index.ts"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.63",
+    "typescript": "^4.0.3"
+  }
+}
