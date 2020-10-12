@@ -1,4 +1,4 @@
-import {Pessoa} from './Pessoa'
+import Pessoa from './entities/Pessoa'
 import pessoasMock from './mocks/PessoasMock'
 
 
