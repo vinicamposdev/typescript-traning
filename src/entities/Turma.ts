@@ -1,5 +1,8 @@
 import Professor from './Professor'
-class Turma {
+import Disciplina from './Disciplina'
+import Aluno from './Aluno'
+
+export default class Turma {
     professor: Professor
     disciplina: Disciplina
     aluno: Aluno
