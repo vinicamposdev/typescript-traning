@@ -1,31 +1,26 @@
 export default [
   {
-    nome: "Natalia",
+    nome: "Aluno Natalia",
     dataNasc: new Date(new Date().valueOf() - 1234567891011),
     genero: "F",
   },
   {
-    nome: "Felepina",
+    nome: "Aluno Felepina",
     dataNasc: new Date(new Date().valueOf() - 1334567891011),
     genero: "F",
   },
   {
-    nome: "Alizabét",
+    nome: "Aluno Alizabét",
     dataNasc: new Date(new Date().valueOf() - 1434567891011),
     genero: "F",
   },
   {
-    nome: "Shaulina",
+    nome: "Aluno Shaulina",
     dataNasc: new Date(new Date().valueOf() - 1534567891011),
     genero: "F",
   },
   {
-    nome: "Analise",
-    dataNasc: new Date(new Date().valueOf() - 1634567891011),
-    genero: "F",
-  },
-  {
-    nome: "Prof. Alabama",
+    nome: "Aluno Analise",
     dataNasc: new Date(new Date().valueOf() - 1634567891011),
     genero: "F",
   },
