@@ -1,9 +1,9 @@
-import Pessoa from './entities/Pessoa'
-import pessoasMock from './mocks/PessoasMock'
-
+import pessoasMock from "./mocks/PessoasMock";
+import createMultiplesPessoas from "./functions/createMultiplesPessoas";
 
 function main() {
-    console.log(new Pessoa(pessoasMock[0]))
+  var p = createMultiplesPessoas(pessoasMock);
+  console.log(p);
 }
 
-main()
+main();
