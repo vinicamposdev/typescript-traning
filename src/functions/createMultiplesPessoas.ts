@@ -1,5 +1,5 @@
 import Pessoa from "../entities/Pessoa";
-import { IPessoaCreate } from "../dtos/IPessoaCreation";
+import { IPessoaCreate } from "../dtos/ICreation";
 
 export default function createMultiplesPessoas(
   pessoas: IPessoaCreate[]

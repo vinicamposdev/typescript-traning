@@ -1,4 +1,4 @@
-import { IPessoaCreate } from "../dtos/IPessoaCreation";
+import { IPessoaCreate } from "../dtos/ICreation";
 
 export default class Pessoa {
   private nome: string;
