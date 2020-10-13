@@ -10,3 +10,9 @@ export interface IProfessorCreate {
   genero: string;
   categoria: string;
 }
+
+export interface IAlunoCreate {
+  nome: string;
+  dataNasc: Date;
+  genero: string;
+}
