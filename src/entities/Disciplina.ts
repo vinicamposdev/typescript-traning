@@ -1,3 +1,11 @@
 export default class Disciplina {
-    nome: string
+  private nome: string;
+
+  constructor(nome) {
+    this.nome = nome;
+  }
+
+  getNome() {
+    return this.nome;
+  }
 }

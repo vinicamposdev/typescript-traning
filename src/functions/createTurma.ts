@@ -1,14 +1,8 @@
 import Turma from "../entities/Turma";
-import Aluno from "entities/Aluno";
-import Professor from "entities/Professor";
-import Disciplina from "entities/Disciplina";
+import ITurmaCreation from "../dtos/ITurmaCreation";
 
-export default function createTurma(
-  d: Disciplina,
-  p: Professor,
-  as: Aluno[]
-): Turma {
-  const t: Turma = new Turma({ professor: p, disciplina: d, aluno: as });
+export default function createTurma(data: ITurmaCreation): Turma {
+  const t: Turma = new Turma(data);
 
   return t;
 }
